@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- textview的基本样式-->
+    <style name="niu_home_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="text_gravity_center_vertical_style" parent="niu_home_text_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+</resources>

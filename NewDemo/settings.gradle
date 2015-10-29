@@ -1,1 +1,3 @@
 include ':app'
+include ':aMapLocationDemo'
+include ':aMap_Android_API_3DMap_Demo_V30_Location_API_V140'

@@ -10,6 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aMapLocationDemo" />
+            <option value="$PROJECT_DIR$/aMap_Android_API_3DMap_Demo_V30_Location_API_V140" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
