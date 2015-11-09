@@ -6,6 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/aMapLocationDemo/aMapLocationDemo.iml" filepath="$PROJECT_DIR$/aMapLocationDemo/aMapLocationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/aMap_Android_API_3DMap_Demo_V30_Location_API_V140/aMap_Android_API_3DMap_Demo_V30_Location_API_V140.iml" filepath="$PROJECT_DIR$/aMap_Android_API_3DMap_Demo_V30_Location_API_V140/aMap_Android_API_3DMap_Demo_V30_Location_API_V140.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bDIntegrationSDK_LibProject/bDIntegrationSDK_LibProject.iml" filepath="$PROJECT_DIR$/bDIntegrationSDK_LibProject/bDIntegrationSDK_LibProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryBar/libraryBar.iml" filepath="$PROJECT_DIR$/libraryBar/libraryBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryBar/library.iml" filepath="$PROJECT_DIR$/libraryBar/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullScrollView/pullScrollView.iml" filepath="$PROJECT_DIR$/pullScrollView/pullScrollView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullListview/pulllistview.iml" filepath="$PROJECT_DIR$/pullListview/pulllistview.iml" />
     </modules>
   </component>
 </project>

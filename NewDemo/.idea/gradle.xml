@@ -5,7 +5,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="C:\tools\android-studio\gradle\gradle-2.4" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4" />
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
@@ -13,6 +13,12 @@
             <option value="$PROJECT_DIR$/aMapLocationDemo" />
             <option value="$PROJECT_DIR$/aMap_Android_API_3DMap_Demo_V30_Location_API_V140" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bDIntegrationSDK_LibProject" />
+            <option value="$PROJECT_DIR$/demo" />
+            <option value="$PROJECT_DIR$/libraryScroll" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/pullListview" />
+            <option value="$PROJECT_DIR$/pullScrollView" />
           </set>
         </option>
       </GradleProjectSettings>
