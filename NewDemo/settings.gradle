@@ -1,4 +1,5 @@
-include ':app', ':myapplication', ':demo', ':pullListview', ':pulllistview', ':pullScrollView', ':libraryScroll'
+include ':app', ':myapplication', ':demo', ':pullListview', ':pulllistview', ':pullScrollView', ':libraryScroll', ':headListview'
 include ':aMapLocationDemo'
 include ':aMap_Android_API_3DMap_Demo_V30_Location_API_V140'
 include ':bDIntegrationSDK_LibProject'
+include ':lineStyle'

@@ -7,26 +7,44 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* .DS_Store
+* ic_launcher-web.png
 * proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.+
 
 Moved Files:
 ------------
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => bDIntegrationSDK_LibProject/src/main/AndroidManifest.xml
-* assets/ => bDIntegrationSDK_LibProject/src/main/assets
-* libs/BDAutoUpdate_APPX_SDK_20150826.jar => bDIntegrationSDK_LibProject/libs/BDAutoUpdate_APPX_SDK_20150826.jar
-* libs/android_api_3.6.9.3.jar => bDIntegrationSDK_LibProject/libs/android_api_3.6.9.3.jar
-* libs/armeabi/libMD5_v1.so => bDIntegrationSDK_LibProject/src/main/jniLibs/armeabi/libMD5_v1.so
-* libs/armeabi/libbase64encoder_v1_4.so => bDIntegrationSDK_LibProject/src/main/jniLibs/armeabi/libbase64encoder_v1_4.so
-* libs/need_lib.jar => bDIntegrationSDK_LibProject/libs/need_lib.jar
-* libs/patchupdate.jar => bDIntegrationSDK_LibProject/libs/patchupdate.jar
-* libs/x86/libMD5_v1.so => bDIntegrationSDK_LibProject/src/main/jniLibs/x86/libMD5_v1.so
-* libs/x86/libbase64encoder_v1_4.so => bDIntegrationSDK_LibProject/src/main/jniLibs/x86/libbase64encoder_v1_4.so
-* res/ => bDIntegrationSDK_LibProject/src/main/res/
-* src/ => bDIntegrationSDK_LibProject/src/main/java
+* AndroidManifest.xml => lineStyle/src/main/AndroidManifest.xml
+* assets/ => lineStyle/src/main/assets
+* res/ => lineStyle/src/main/res/
+* src/ => lineStyle/src/main/java/
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
 
 Next Steps:
 -----------
