@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calendlibrary/Calendlibrary.iml" filepath="$PROJECT_DIR$/Calendlibrary/Calendlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calendsample/Calendsample.iml" filepath="$PROJECT_DIR$/Calendsample/Calendsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPushExample/JPushExample.iml" filepath="$PROJECT_DIR$/JPushExample/JPushExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/NewDemo.iml" filepath="$PROJECT_DIR$/NewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/aMapLocationDemo/aMapLocationDemo.iml" filepath="$PROJECT_DIR$/aMapLocationDemo/aMapLocationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/aMap_Android_API_3DMap_Demo_V30_Location_API_V140/aMap_Android_API_3DMap_Demo_V30_Location_API_V140.iml" filepath="$PROJECT_DIR$/aMap_Android_API_3DMap_Demo_V30_Location_API_V140/aMap_Android_API_3DMap_Demo_V30_Location_API_V140.iml" />
