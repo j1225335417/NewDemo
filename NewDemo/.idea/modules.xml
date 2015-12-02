@@ -15,10 +15,12 @@
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/easeUI/easeUI.iml" filepath="$PROJECT_DIR$/easeUI/easeUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/easeUIDemo/easeUIDemo.iml" filepath="$PROJECT_DIR$/easeUIDemo/easeUIDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestureExample/gestureExample.iml" filepath="$PROJECT_DIR$/gestureExample/gestureExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraryBar/libraryBar.iml" filepath="$PROJECT_DIR$/libraryBar/libraryBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraryScroll/libraryScroll.iml" filepath="$PROJECT_DIR$/libraryScroll/libraryScroll.iml" />
       <module fileurl="file://$PROJECT_DIR$/lineStyle/lineStyle.iml" filepath="$PROJECT_DIR$/lineStyle/lineStyle.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perMissApp/perMissApp.iml" filepath="$PROJECT_DIR$/perMissApp/perMissApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullListview/pullListview.iml" filepath="$PROJECT_DIR$/pullListview/pullListview.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullScrollView/pullScrollView.iml" filepath="$PROJECT_DIR$/pullScrollView/pullScrollView.iml" />
     </modules>
