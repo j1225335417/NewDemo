@@ -43,7 +43,6 @@ public class MainActivity extends Activity {
         Class clazz = window.getClass();
         try {
             int tranceFlag = 0;
-            int darkModeFlag = 0;
             Class layoutParams = Class.forName("android.view.MiuiWindowManager$LayoutParams");
 
             Field field = layoutParams.getField("EXTRA_FLAG_STATUS_BAR_TRANSPARENT");
