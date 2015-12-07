@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BezierApp/BezierApp.iml" filepath="$PROJECT_DIR$/BezierApp/BezierApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Calendlibrary/Calendlibrary.iml" filepath="$PROJECT_DIR$/Calendlibrary/Calendlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Calendsample/Calendsample.iml" filepath="$PROJECT_DIR$/Calendsample/Calendsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/HongBaoApp/HongBaoApp.iml" filepath="$PROJECT_DIR$/HongBaoApp/HongBaoApp.iml" />

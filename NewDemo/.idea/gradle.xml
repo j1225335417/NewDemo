@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BezierApp" />
             <option value="$PROJECT_DIR$/Calendlibrary" />
             <option value="$PROJECT_DIR$/Calendsample" />
             <option value="$PROJECT_DIR$/HongBaoApp" />
@@ -35,6 +36,7 @@
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BezierApp" />
             <option value="$PROJECT_DIR$/Calendlibrary" />
             <option value="$PROJECT_DIR$/Calendsample" />
             <option value="$PROJECT_DIR$/HongBaoApp" />
