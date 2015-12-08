@@ -71,7 +71,7 @@ public class BezierView extends FrameLayout {
         paint = new Paint();
         paint.setAntiAlias(true);
         paint.setStyle(Paint.Style.FILL_AND_STROKE);
-        paint.setStrokeWidth(2);
+        paint.setStrokeWidth(1);
         paint.setColor(Color.RED);
 
         LayoutParams params = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
