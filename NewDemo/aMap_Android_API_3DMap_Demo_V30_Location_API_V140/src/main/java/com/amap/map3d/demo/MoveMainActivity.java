@@ -21,7 +21,7 @@ public class MoveMainActivity extends Activity {
 	private Marker mMoveMarker;
 
 	// 通过设置间隔时间和距离可以控制速度和图标移动的距离
-	private static final int TIME_INTERVAL = 80;
+	private static final int TIME_INTERVAL = 10;
 	private static final double DISTANCE = 0.0001;
 
 	@Override
@@ -32,6 +32,14 @@ public class MoveMainActivity extends Activity {
 
 		mMapView.onCreate(savedInstanceState);
 		mAmap = mMapView.getMap();
+		mAmap.setOnMarkerClickListener(new AMap.OnMarkerClickListener() {
+			@Override
+			public boolean onMarkerClick(Marker marker) {
+				marker.showInfoWindow();
+//				marker.getTitle()
+				return false;
+			}
+		});
 		initRoadData();
 		moveLooper();
 	}
@@ -75,9 +83,30 @@ public class MoveMainActivity extends Activity {
 		markerOptions.anchor(0.5f, 0.5f);
 		markerOptions.icon(BitmapDescriptorFactory
 				.fromResource(R.drawable.marker));
+		markerOptions.title("111");
 		markerOptions.position(polylineOptions.getPoints().get(0));
 		mMoveMarker = mAmap.addMarker(markerOptions);
-		mMoveMarker.setRotateAngle((float) getAngle(0));
+
+
+
+
+//		for (int i = 0; i < polylineOptions.getPoints().size()-1; i++) {
+//			MarkerOptions markerOptions2 = new MarkerOptions();
+//			markerOptions2.setFlat(true);
+//			markerOptions2.anchor(0.5f, 0.5f);
+//			markerOptions2.title(""+i);
+//			int id = 0;
+//			if(i%2==0){
+//				id = R.drawable.marker;
+//			}else {
+//				id = R.drawable.ic_launcher;
+//			}
+//			markerOptions2.icon(BitmapDescriptorFactory
+//					.fromResource(id));
+//			markerOptions2.position(polylineOptions.getPoints().get(i));
+//			mMoveMarker = mAmap.addMarker(markerOptions2);
+//		}
+		mMoveMarker.setRotateAngle((float) getAngle(0)); //设置角度
 
 	}
 
@@ -209,7 +238,7 @@ public class MoveMainActivity extends Activity {
 						mMoveMarker
 						.setPosition(startPoint);
 
-						mMoveMarker.setRotateAngle((float) getAngle(startPoint,
+						mMoveMarker.setRotateAngle((float) getAngle(startPoint,  //根据开始 和结束 改变图标方向
 								endPoint));
 
 						double slope = getSlope(startPoint, endPoint);

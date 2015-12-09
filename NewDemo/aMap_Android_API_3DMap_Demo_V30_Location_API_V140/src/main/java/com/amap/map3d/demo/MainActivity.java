@@ -86,6 +86,8 @@ public final class MainActivity extends ListActivity {
 					BasicMapActivity.class),
 			new DemoDetails(R.string.move, R.string.move,
 					MoveMainActivity.class),
+			new DemoDetails(R.string.my, R.string.my,
+					MyMoveMainActivity.class),
 			new DemoDetails(R.string.base_fragment_map,
 					R.string.base_fragment_description,
 					BaseMapFragmentActivity.class),

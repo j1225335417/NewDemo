@@ -177,6 +177,11 @@
             android:name="com.amap.map3d.demo.MoveMainActivity"
             android:label="自由移动"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.amap.map3d.demo.MyMoveMainActivity"
+            android:label="自己的"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
