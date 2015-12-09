@@ -173,6 +173,10 @@
             android:name="com.amap.map3d.demo.district.DistrictWithBoundaryActivity"
             android:label="@string/district_boundary_demo"
             android:screenOrientation="portrait" />
+        <activity
+            android:name="com.amap.map3d.demo.MoveMainActivity"
+            android:label="自由移动"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

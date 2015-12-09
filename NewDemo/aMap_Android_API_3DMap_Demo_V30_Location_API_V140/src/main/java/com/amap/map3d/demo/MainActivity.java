@@ -84,6 +84,8 @@ public final class MainActivity extends ListActivity {
 	private static final DemoDetails[] demos = {
 			new DemoDetails(R.string.basic_map, R.string.basic_description,
 					BasicMapActivity.class),
+			new DemoDetails(R.string.move, R.string.move,
+					MoveMainActivity.class),
 			new DemoDetails(R.string.base_fragment_map,
 					R.string.base_fragment_description,
 					BaseMapFragmentActivity.class),
