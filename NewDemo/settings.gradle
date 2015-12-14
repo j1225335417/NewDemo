@@ -10,3 +10,4 @@ include ':RecycolerViewH'
 include  ':SMSapp' //验证码
 
 include ':gestureExample'
+include ':raisedCenterTab'

@@ -36,6 +36,7 @@
             <option value="$PROJECT_DIR$/perMissApp" />
             <option value="$PROJECT_DIR$/pullListview" />
             <option value="$PROJECT_DIR$/pullScrollView" />
+            <option value="$PROJECT_DIR$/raisedCenterTab" />
           </set>
         </option>
         <option name="myModules">
@@ -67,6 +68,7 @@
             <option value="$PROJECT_DIR$/perMissApp" />
             <option value="$PROJECT_DIR$/pullListview" />
             <option value="$PROJECT_DIR$/pullScrollView" />
+            <option value="$PROJECT_DIR$/raisedCenterTab" />
           </set>
         </option>
       </GradleProjectSettings>
