@@ -1,4 +1,4 @@
-include ':app', ':myapplication', ':demo', ':pullListview', ':pullScrollView', ':libraryScroll', ':JPushExample', ':perMissApp', ':HongBaoApp', ':BezierApp', ':loadingExample', ':lib', ':JPushExample(377049)'
+include ':app', ':myapplication', ':demo', ':pullListview', ':pullScrollView', ':libraryScroll', ':JPushExample', ':perMissApp', ':HongBaoApp', ':BezierApp', ':loadingExample', ':lib', ':JPushExample(377049)', ':library', ':googlePrograssBar'
 include ':aMapLocationDemo'
 include ':aMap_Android_API_3DMap_Demo_V30_Location_API_V140'
 include ':bDIntegrationSDK_LibProject'

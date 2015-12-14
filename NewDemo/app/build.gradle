@@ -27,4 +27,7 @@ dependencies {
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:support-v4:23.1.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile files('libs/Android_Map_V3.0.20150831.jar')
+    compile files('libs/MapApiServices.jar')
+    compile files('libs/AMap_ Location_v1.4.0_20150830.jar')
 }

@@ -43,7 +43,7 @@ public class NavigateArrowOverlayActivity extends Activity {
 					latlng2, latlng3, latlng4).width(20));
 			aMap.moveCamera(CameraUpdateFactory
 					.newCameraPosition(new CameraPosition(new LatLng(39.9875,
-							116.48047), 16f, 38.5f, 300)));
+							116.48047), 16f, 30f, 300)));
 
 		}
 	}
