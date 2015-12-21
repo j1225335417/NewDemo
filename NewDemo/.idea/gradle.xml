@@ -37,6 +37,7 @@
             <option value="$PROJECT_DIR$/pullListview" />
             <option value="$PROJECT_DIR$/pullScrollView" />
             <option value="$PROJECT_DIR$/raisedCenterTab" />
+            <option value="$PROJECT_DIR$/verticalSlide" />
           </set>
         </option>
         <option name="myModules">
@@ -69,6 +70,7 @@
             <option value="$PROJECT_DIR$/pullListview" />
             <option value="$PROJECT_DIR$/pullScrollView" />
             <option value="$PROJECT_DIR$/raisedCenterTab" />
+            <option value="$PROJECT_DIR$/verticalSlide" />
           </set>
         </option>
       </GradleProjectSettings>

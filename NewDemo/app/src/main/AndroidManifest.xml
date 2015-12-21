@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="newpro.vipj.com.newdemo">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,11 +13,12 @@
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="1f7819dff770099b3899e84b8c81b44b" />
+
         <activity android:name=".MainActivity" />
         <activity
             android:name=".AMapActivity"
             android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,9 +41,7 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".Main22Activity"
             android:label="@string/title_activity_main22"
@@ -48,9 +49,7 @@
         <activity
             android:name=".Main23Activity"
             android:label="@string/title_activity_main23"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

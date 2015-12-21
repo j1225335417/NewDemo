@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/pullListview/pullListview.iml" filepath="$PROJECT_DIR$/pullListview/pullListview.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullScrollView/pullScrollView.iml" filepath="$PROJECT_DIR$/pullScrollView/pullScrollView.iml" />
       <module fileurl="file://$PROJECT_DIR$/raisedCenterTab/raisedCenterTab.iml" filepath="$PROJECT_DIR$/raisedCenterTab/raisedCenterTab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verticalSlide/verticalSlide.iml" filepath="$PROJECT_DIR$/verticalSlide/verticalSlide.iml" />
     </modules>
   </component>
 </project>
